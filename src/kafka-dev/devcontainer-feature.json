@@ -1,0 +1,20 @@
+{
+    "id": "kafka-dev",
+    "version": "1.0.0",
+    "name": "Kafka devcontainer feature",
+    "description": "A devcontainer feature to provide kafka CLI components to the java base image",
+    "documentationURL": "https://github.com/joshholl/kafka-devcontainer-feature/tree/main",
+    "options": {
+      "version": {
+        "type": "string",
+        "proposals": [ "7.6", "7.5" ],
+        "default": "7.6",
+        "description": "Select a version of the Confluent Community Platform"
+      }
+    },
+    "installsAfter": [
+      "ghcr.io/devcontainers/features/common-utils",
+      "ghcr.io/devcontainers/features/java"
+    ]
+  }
+  
