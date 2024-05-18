@@ -1,6 +1,6 @@
 {
     "id": "kafka-dev",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Kafka devcontainer feature",
     "description": "A devcontainer feature to provide kafka CLI components to the java base image",
     "documentationURL": "https://github.com/joshholl/kafka-devcontainer-feature/tree/main",
